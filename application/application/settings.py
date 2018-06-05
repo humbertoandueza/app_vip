@@ -25,7 +25,7 @@ SECRET_KEY = '4=^80dk4t3b-@f^s921y80=%nq6)l!=5+5xjy%7#z4jdz-!r99'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['vidaplena.pythonanywhere.com']
 
 
 # Application definition
