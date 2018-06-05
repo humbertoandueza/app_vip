@@ -1,6 +1,7 @@
-{% extends "panel_admin/base.html" %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
 
-<<<<<<< HEAD
 <!--================================================================================
 	Item Name: Materialize - Material Design Admin Template
 	Version: 3.1
@@ -15,7 +16,7 @@
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="description" content="Materialize is a Material Design Admin Template,It's modern, responsive and based on Material Design by Google. ">
     <meta name="keywords" content="materialize, admin template, dashboard template, flat admin template, responsive admin template,">
-    <title>Iglesia Vida Plena</title>
+    <title>Materialize - Material Design Admin Template</title>
 
     <!-- Favicons-->
     <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
@@ -27,10 +28,10 @@
     <!-- For Windows Phone -->
 
 
-    <!-- CORE CSS-->
+    <!-- CORE CSS-->    
     <link href="{% static 'css/materialize.min.css'%}" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="{% static 'css/style.min.css'%}" type="text/css" rel="stylesheet" media="screen,projection">
-    <!-- Custome CSS-->
+    <!-- Custome CSS-->    
     <link href="{% static 'css/custom/custom.min.css'%}" type="text/css" rel="stylesheet" media="screen,projection">
 
 
@@ -43,7 +44,7 @@
 <body>
     <!-- Start Page Loading -->
     <div id="loader-wrapper">
-        <div id="loader"></div>
+        <div id="loader"></div>        
         <div class="loader-section section-left"></div>
         <div class="loader-section section-right"></div>
     </div>
@@ -57,7 +58,7 @@
         <div class="navbar-fixed">
             <nav class="navbar-color">
                 <div class="nav-wrapper">
-                    <ul class="left">
+                    <ul class="left">                      
                       <li><h1 class="logo-wrapper"><a href="{% url 'app:panel' %}" class="brand-logo darken-1"><img src="{% static 'assets/img/logo.png'%}" alt="materialize logo"></a> <span class="logo-text">Materialize</span></h1></li>
                     </ul>
                     <div class="header-search-wrapper hide-on-med-and-down">
@@ -66,13 +67,13 @@
                     </div>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="javascript:void(0);" class="waves-effect waves-block waves-light notification-button" data-activates="notifications-dropdown"><i class="mdi-social-notifications"><small class="notification-badge">5</small></i>
-
+                        
                         </a>
-                        </li>
+                        </li>                        
                         <li><a href="#" data-activates="chat-out" class="waves-effect waves-block waves-light chat-collapse"><i class="mdi-communication-chat"></i></a>
                         </li>
                     </ul>
-
+                    
                     <!-- notifications-dropdown -->
                     <ul id="notifications-dropdown" class="dropdown-content">
                       <li>
@@ -167,9 +168,8 @@
             <!-- START CONTENT -->
             <section id="content">
 
-                <!--start container-->
-
-                <!--end container-->
+                {% block content %}
+                {% endblock %}
             </section>
             <!-- END CONTENT -->
 
@@ -192,8 +192,8 @@
     <footer class="page-footer">
         <div class="footer-copyright">
             <div class="container">
-                Copyright © 2018 <a class="grey-text text-lighten-4" href="http://vidaplena.pythonanywhere.com" target="_blank">Vida Plena</a> Todos los derechos reservados.
-                <span class="right"> Desarrollado por Humberto Andueza y Wilersy Hidalgo</span>
+                Copyright © 2018 <a class="grey-text text-lighten-4" href="http://themeforest.net/user/geekslabs/portfolio?ref=geekslabs" target="_blank">GeeksLabs</a> All rights reserved.
+                <span class="right"> Design and Developed by <a class="grey-text text-lighten-4" href="http://geekslabs.com/">GeeksLabs</a></span>
             </div>
         </div>
     </footer>
@@ -203,28 +203,23 @@
     <!-- ================================================
     Scripts
     ================================================ -->
-
+    
     <!-- jQuery Library -->
-    <script type="text/javascript" src="{% static 'js/plugins/jquery-1.11.2.min.js'%}"></script>
+    <script type="text/javascript" src="{% static 'js/plugins/jquery-1.11.2.min.js'%}"></script>    
     <!--materialize js-->
     <script type="text/javascript" src="{% static 'js/materialize.min.js'%}"></script>
     <!--scrollbar-->
     <script type="text/javascript" src="{% static 'js/plugins/perfect-scrollbar/perfect-scrollbar.min.js'%}"></script>
+    
 
 
-
-
+    
     <!--plugins.js - Some Specific JS codes for Plugin Settings-->
     <script type="text/javascript" src="{% static 'js/plugins.min.js'%}"></script>
     <!--custom-script.js - Add your own theme custom JS-->
     <script type="text/javascript" src="{% static 'js/custom-script.js'%}"></script>
     <!-- Toast Notification -->
-
+    
 </body>
 
 </html>
-=======
-{% block content %}
-<h1>Hello</h1>
-{% endblock%}
->>>>>>> 40a9dd9132dd50010369ddcc9c802be1cb5d73ac
