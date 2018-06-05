@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -11,7 +12,7 @@
         <title>Materialize Home</title>
 
         <!--  favicon -->
-        <link rel="shortcut icon" href="assets/img/ico/favicon.png">
+        <link rel="shortcut icon" href="{% static 'assets/img/ico/favicon.png'%}">
         <!--  apple-touch-icon -->
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/img/ico/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/img/ico/apple-touch-icon-114-precomposed.png">
@@ -20,30 +21,30 @@
 
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,900' rel='stylesheet' type='text/css'>
         <!-- FontAwesome CSS -->
-        <link href="assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="{% static 'assets/fonts/font-awesome/css/font-awesome.min.css'%}" rel="stylesheet">
         <!-- Material Icons CSS -->
-        <link href="assets/fonts/iconfont/material-icons.css" rel="stylesheet">
+        <link href="{% static 'assets/fonts/iconfont/material-icons.css'%}" rel="stylesheet">
         <!-- magnific-popup -->
-        <link href="assets/magnific-popup/magnific-popup.css" rel="stylesheet">
+        <link href="{% static 'assets/magnific-popup/magnific-popup.css'%}" rel="stylesheet">
         <!-- owl.carousel -->
-        <link href="assets/owl.carousel/assets/owl.carousel.css" rel="stylesheet">
-        <link href="assets/owl.carousel/assets/owl.theme.default.min.css" rel="stylesheet">
+        <link href="{% static 'assets/owl.carousel/assets/owl.carousel.css'%}" rel="stylesheet">
+        <link href="{% static 'assets/owl.carousel/assets/owl.theme.default.min.css'%}" rel="stylesheet">
         <!-- flexslider -->
-        <link href="assets/flexSlider/flexslider.css" rel="stylesheet">
+        <link href="{% static 'assets/flexSlider/flexslider.css'%}" rel="stylesheet">
         <!-- materialize -->
-        <link href="assets/materialize/css/materialize.min.css" rel="stylesheet">
+        <link href="{% static 'assets/materialize/css/materialize.min.css'%}" rel="stylesheet">
         <!-- Bootstrap -->
-        <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="{% static 'assets/bootstrap/css/bootstrap.min.css'%}" rel="stylesheet">
         <!-- shortcodes -->
-        <link href="assets/css/shortcodes/shortcodes.css" rel="stylesheet">
+        <link href="{% static 'assets/css/shortcodes/shortcodes.css'%}" rel="stylesheet">
         <!-- Style CSS -->
-        <link href="style.css" rel="stylesheet">
+        <link href="{% static 'style.css'%}" rel="stylesheet">
 
         <!-- RS5.0 Main Stylesheet -->
-        <link rel="stylesheet" type="text/css" href="assets/revolution/css/settings.css">
+        <link rel="stylesheet" type="text/css" href="{% static 'assets/revolution/css/settings.css'%}">
         <!-- RS5.0 Layers and Navigation Styles -->
-        <link rel="stylesheet" type="text/css" href="assets/revolution/css/layers.css">
-        <link rel="stylesheet" type="text/css" href="assets/revolution/css/navigation.css">
+        <link rel="stylesheet" type="text/css" href="{% static 'assets/revolution/css/layers.css'%}">
+        <link rel="stylesheet" type="text/css" href="{% static 'assets/revolution/css/navigation.css'%}">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -86,7 +87,7 @@
 
                         <!--logo start-->
                         <a href="index.html" class="logo-brand">
-                            <img src="assets/img/logo.png" alt=""/>
+                            <img src="{% static 'assets/img/logo.png'%}" alt=""/>
                         </a>
                         <!--logo end-->
 
@@ -165,10 +166,10 @@
           <ul>
 
             <!-- slide 1 start --> 
-            <li data-transition="fade" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="assets/img/banner/banner-1.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="materialize Material" data-description="">
+            <li data-transition="fade" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="{% static 'assets/img/banner/banner-1.jpg'%}"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="materialize Material" data-description="">
             
                 <!-- MAIN IMAGE -->
-                <img src="assets/img/banner/banner-1.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                <img src="{% static 'assets/img/banner/banner-1.jpg'%}"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 
                 <!-- LAYER NR. 1 -->
                 <div class="tp-caption rev-heading text-extrabold dark-text tp-resizeme"
@@ -188,7 +189,7 @@
                     data-splitin="none" 
                     data-splitout="none" 
                     data-responsive_offset="on"
-                    style="z-index: 5; white-space: nowrap;">We Are Materialize
+                    style="z-index: 5; white-space: nowrap;">IGLESIA VIDA PLENA
                 </div>
 
                 <!-- LAYER NR. 2 -->
@@ -206,7 +207,7 @@
                     data-splitin="none" 
                     data-splitout="none" 
                     data-responsive_offset="on"
-                    style="z-index: 6; white-space: nowrap;">Materialize is an interactive agency. Which develops websites <br> and premium mobile applications.
+                    style="z-index: 6; white-space: nowrap;">Somos una iglesia con el objectivo de llevar el evangelio a toda criatura<br> predicando la palabra de Dios.
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -227,17 +228,17 @@
                     data-splitout="none" 
                     data-responsive_offset="on"
                     style="z-index: 7; white-space: nowrap;">
-                    <a href="#" class="btn btn-lg  waves-effect waves-light">Explore More</a>
+                    <a href="#" class="btn btn-lg  waves-effect waves-light">Conocenos</a>
                 </div>
 
             </li>
             <!-- slide 1 end -->
 
             <!-- slide 2 start --> 
-            <li data-transition="fade" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="assets/img/banner/banner-2.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Unique Design" data-description="">
+            <li data-transition="fade" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="{% static 'assets/img/banner/banner-2.jpg'%}"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Unique Design" data-description="">
                 
                 <!-- MAIN IMAGE -->
-                <img src="assets/img/banner/banner-2.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                <img src="{% static 'assets/img/banner/banner-2.jpg'%}"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 
                 <!-- LAYER NR. 1 -->
                 <div class="tp-caption rev-heading text-extrabold dark-text tp-resizeme"
@@ -345,7 +346,7 @@
                               </div>
 
                               <div class="col-md-6">
-                                  <img src="assets/img/workstation.jpg" alt="image" class="img-responsive">
+                                  <img src="{% static 'assets/img/workstation.jpg'%}" alt="image" class="img-responsive">
                               </div>
                             </div>
                           </div>
@@ -358,7 +359,7 @@
                               </div>
 
                               <div class="col-md-6">
-                                  <img src="assets/img/mission.jpg" alt="image" class="img-responsive">
+                                  <img src="{% static 'assets/img/mission.jpg'%}" alt="image" class="img-responsive">
                               </div>
                             </div>
                           </div>
@@ -371,7 +372,7 @@
                               </div>
 
                               <div class="col-md-6">
-                                  <img src="assets/img/idea.jpg" alt="" class="img-responsive">
+                                  <img src="{% static 'assets/img/idea.jpg'%}" alt="" class="img-responsive">
                               </div>
                             </div>
                           </div>
@@ -384,7 +385,7 @@
                               </div>
 
                               <div class="col-md-6">
-                                  <img src="assets/img/workstation2.jpg" alt="image" class="img-responsive">
+                                  <img src="{% static 'assets/img/workstation2.jpg'%}" alt="image" class="img-responsive">
                               </div>
                             </div>
                           </div>
@@ -505,7 +506,7 @@
             </div><!-- /.container -->
 
             <div class="mocup-wrapper text-center">
-                <img src="assets/img/mockup/mockup.png" alt="image">
+                <img src="{% static 'assets/img/mockup/mockup.png'%}" alt="image">
             </div>
         </section>
 
@@ -534,11 +535,11 @@
 
                             <div class="thumb">
                                 <div class="bg-overlay brand-overlay"></div>
-                                <img src="assets/img/portfolio/portfolio-1.jpg" alt="">
+                                <img src="{% static 'assets/img/portfolio/portfolio-1.jpg'%}" alt="">
                                 
                                 <div class="portfolio-intro">
                                   <div class="action-btn">
-                                    <a href="assets/img/portfolio/portfolio-1.jpg" class="tt-lightbox" title="iOS Game Design"> <i class="fa fa-search"></i></a>
+                                    <a href="{% static 'assets/img/portfolio/portfolio-1.jpg'%}" class="tt-lightbox" title="iOS Game Design"> <i class="fa fa-search"></i></a>
                                   </div>
                                 </div>
                             </div><!-- thumb -->
@@ -555,11 +556,11 @@
                         <div class="portfolio-wrapper">
                           <div class="thumb">
                               <div class="bg-overlay brand-overlay"></div>
-                              <img src="assets/img/portfolio/portfolio-2.jpg" alt="">
+                              <img src="{% static 'assets/img/portfolio/portfolio-2.jpg'%}" alt="">
 
                               <div class="portfolio-intro">
                                 <div class="action-btn">
-                                    <a href="assets/img/portfolio/portfolio-2.jpg" class="tt-lightbox" title=""> <i class="fa fa-search"></i></a>
+                                    <a href="{% static 'assets/img/portfolio/portfolio-2.jpg'%}" class="tt-lightbox" title=""> <i class="fa fa-search"></i></a>
                                 </div>
                               </div>
                           </div>
@@ -576,11 +577,11 @@
                         <div class="portfolio-wrapper">
                           <div class="thumb">
                               <div class="bg-overlay brand-overlay"></div>
-                              <img src="assets/img/portfolio/portfolio-3.jpg" alt="">
+                              <img src="{% static 'assets/img/portfolio/portfolio-3.jpg'%}" alt="">
 
                               <div class="portfolio-intro">
                                 <div class="action-btn">
-                                    <a href="assets/img/portfolio/portfolio-3.jpg" class="tt-lightbox" title=""> <i class="fa fa-search"></i></a>
+                                    <a href="{% static 'assets/img/portfolio/portfolio-3.jpg'%}" class="tt-lightbox" title=""> <i class="fa fa-search"></i></a>
                                 </div>
                               </div>
                           </div>
@@ -596,11 +597,11 @@
                         <div class="portfolio-wrapper">
                           <div class="thumb">
                               <div class="bg-overlay brand-overlay"></div>
-                              <img src="assets/img/portfolio/portfolio-4.jpg" alt="">
+                              <img src="{% static 'assets/img/portfolio/portfolio-4.jpg'%}" alt="">
 
                               <div class="portfolio-intro">
                                 <div class="action-btn">
-                                    <a href="assets/img/portfolio/portfolio-4.jpg" class="tt-lightbox" title=""> <i class="fa fa-search"></i></a>
+                                    <a href="{% static 'assets/img/portfolio/portfolio-4.jpg'%}" class="tt-lightbox" title=""> <i class="fa fa-search"></i></a>
                                 </div>
                               </div>
                           </div>
@@ -616,11 +617,11 @@
                         <div class="portfolio-wrapper">
                           <div class="thumb">
                               <div class="bg-overlay brand-overlay"></div>
-                              <img src="assets/img/portfolio/portfolio-5.jpg" alt="">
+                              <img src="{% static 'assets/img/portfolio/portfolio-5.jpg'%}" alt="">
 
                               <div class="portfolio-intro">
                                 <div class="action-btn">
-                                    <a href="assets/img/portfolio/portfolio-5.jpg" class="tt-lightbox" title=""> <i class="fa fa-search"></i></a>
+                                    <a href="{% static 'assets/img/portfolio/portfolio-5.jpg'%}" class="tt-lightbox" title=""> <i class="fa fa-search"></i></a>
                                 </div>
                               </div>
                           </div>
@@ -636,7 +637,7 @@
                         <div class="portfolio-wrapper">
                           <div class="thumb">
                               <div class="bg-overlay brand-overlay"></div>
-                              <img src="assets/img/portfolio/portfolio-6.jpg" alt="">
+                              <img src="{% static 'assets/img/portfolio/portfolio-6.jpg'%}" alt="">
 
                               <div class="portfolio-intro">
                                 <div class="action-btn">
@@ -715,7 +716,7 @@
                   <div class="col-md-3 col-sm-6">
                       <div class="border-box">
                           <a href="#">
-                            <img src="assets/img/client-logo/1.png" alt="clients">
+                            <img src="{% static 'assets/img/client-logo/1.png'%}" alt="clients">
                           </a>
                       </div><!-- /.border-box -->
                   </div><!-- /.col-md-3 -->
@@ -723,7 +724,7 @@
                   <div class="col-md-3 col-sm-6">
                       <div class="border-box">
                           <a href="#">
-                            <img src="assets/img/client-logo/2.png" alt="clients">
+                            <img src="{% static 'assets/img/client-logo/2.png'%}" alt="clients">
                           </a>
                       </div><!-- /.border-box -->
                   </div><!-- /.col-md-3 -->
@@ -731,7 +732,7 @@
                   <div class="col-md-3 col-sm-6">
                       <div class="border-box">
                           <a href="#">
-                            <img src="assets/img/client-logo/4.png" alt="clients">
+                            <img src="{% static 'assets/img/client-logo/4.png'%}" alt="clients">
                           </a>
                       </div><!-- /.border-box -->
                   </div><!-- /.col-md-3 -->
@@ -739,7 +740,7 @@
                   <div class="col-md-3 col-sm-6">
                       <div class="border-box">
                           <a href="#">
-                            <img src="assets/img/client-logo/5.png" alt="clients">
+                            <img src="{% static 'assets/img/client-logo/5.png'%}" alt="clients">
                           </a>
                       </div><!-- /.border-box -->
                   </div><!-- /.col-md-3 -->
@@ -762,7 +763,7 @@
               <div class="blog-carousel">
                   <article class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="assets/img/blog/1.jpg" alt="image">
+                      <img class="activator" src="{% static 'assets/img/blog/1.jpg'%}" alt="image">
                     </div>
                     <div class="card-content">
                       <h2 class="entry-title activator">The Future of Web Design is Hidden in the History of Architecture..</h2>
@@ -778,7 +779,7 @@
 
                   <article class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="assets/img/blog/2.jpg" alt="image">
+                      <img class="activator" src="{% static 'assets/img/blog/2.jpg'%}" alt="image">
                     </div>
                     <div class="card-content">
                       <h2 class="entry-title activator">7 Things Every Designer Needs to Know about Accessibility..</h2>
@@ -794,7 +795,7 @@
 
                   <article class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="assets/img/blog/3.jpg" alt="image">
+                      <img class="activator" src="{% static 'assets/img/blog/3.jpg'%}" alt="image">
                     </div>
                     <div class="card-content">
                       <h2 class="entry-title activator">16 Web & Graphic Design Trends To Watch In 2016...</h2>
@@ -810,7 +811,7 @@
 
                   <article class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="assets/img/blog/4.jpg" alt="image">
+                      <img class="activator" src="{% static 'assets/img/blog/4.jpg'%}" alt="image">
                     </div>
                     <div class="card-content">
                       <h2 class="entry-title activator">The rise of the “Full Stack” Designer and the tools they use..</h2>
@@ -852,7 +853,7 @@
                   <div class="row">
                     <div class="col-md-12">
                           <div class="footer-logo">
-                            <img src="assets/img/logo-white.png" alt="">
+                            <img src="{% static 'assets/img/logo-white.png'%}" alt="">
                           </div>
 
                           <span class="copy-text">Copyright &copy; 2016 <a href="#">Materialize</a> &nbsp; | &nbsp;  All Rights Reserved &nbsp; | &nbsp;  Designed By <a href="#">TrendyTheme</a></span>
@@ -882,26 +883,26 @@
 
 
         <!-- jQuery -->
-        <script src="assets/js/jquery-2.1.3.min.js"></script>
-        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-        <script src="assets/materialize/js/materialize.min.js"></script>
-        <script src="assets/js/jquery.easing.min.js"></script>
-        <script src="assets/js/jquery.sticky.min.js"></script>
-        <script src="assets/js/smoothscroll.min.js"></script>
-        <script src="assets/js/imagesloaded.js"></script>
-        <script src="assets/js/jquery.stellar.min.js"></script>
-        <script src="assets/js/jquery.inview.min.js"></script>
-        <script src="assets/js/jquery.shuffle.min.js"></script>
-        <script src="assets/js/menuzord.js"></script>
-        <script src="assets/js/bootstrap-tabcollapse.min.js"></script>
-        <script src="assets/owl.carousel/owl.carousel.min.js"></script>
-        <script src="assets/flexSlider/jquery.flexslider-min.js"></script>
-        <script src="assets/magnific-popup/jquery.magnific-popup.min.js"></script>
-        <script src="assets/js/scripts.js"></script>
+        <script src="{% static 'assets/js/jquery-2.1.3.min.js'%}"></script>
+        <script src="{% static 'assets/bootstrap/js/bootstrap.min.js'%}"></script>
+        <script src="{% static 'assets/materialize/js/materialize.min.js'%}"></script>
+        <script src="{% static 'assets/js/jquery.easing.min.js'%}"></script>
+        <script src="{% static 'assets/js/jquery.sticky.min.js'%}"></script>
+        <script src="{% static 'assets/js/smoothscroll.min.js'%}"></script>
+        <script src="{% static 'assets/js/imagesloaded.js'%}"></script>
+        <script src="{% static 'assets/js/jquery.stellar.min.js'%}"></script>
+        <script src="{% static 'assets/js/jquery.inview.min.js'%}"></script>
+        <script src="{% static 'assets/js/jquery.shuffle.min.js'%}"></script>
+        <script src="{% static 'assets/js/menuzord.js'%}"></script>
+        <script src="{% static 'assets/js/bootstrap-tabcollapse.min.js'%}"></script>
+        <script src="{% static 'assets/owl.carousel/owl.carousel.min.js'%}"></script>
+        <script src="{% static 'assets/flexSlider/jquery.flexslider-min.js'%}"></script>
+        <script src="{% static 'assets/magnific-popup/jquery.magnific-popup.min.js'%}"></script>
+        <script src="{% static 'assets/js/scripts.js'%}"></script>
 
         <!-- RS5.0 Core JS Files -->
-        <script src="assets/revolution/js/jquery.themepunch.tools.min.js"></script>
-        <script src="assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+        <script src="{% static 'assets/revolution/js/jquery.themepunch.tools.min.js'%}"></script>
+        <script src="{% static 'assets/revolution/js/jquery.themepunch.revolution.min.js'%}"></script>
 
         <!-- RS5.0 Init  -->
         <script type="text/javascript">
@@ -960,14 +961,14 @@
 
         <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems! The following part can be removed on Server for On Demand Loading) -->
          
-        <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
-        <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-        <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-        <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-        <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-        <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-        <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-        <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+        <script type="text/javascript" src="{% static 'assets/revolution/js/extensions/revolution.extension.video.min.js'%}"></script>
+        <script type="text/javascript" src="{% static 'assets/revolution/js/extensions/revolution.extension.slideanims.min.js'%}"></script>
+        <script type="text/javascript" src="{% static 'assets/revolution/js/extensions/revolution.extension.actions.min.js'%}"></script>
+        <script type="text/javascript" src="{% static 'assets/revolution/js/extensions/revolution.extension.layeranimation.min.js'%}"></script>
+        <script type="text/javascript" src="{% static 'assets/revolution/js/extensions/revolution.extension.kenburn.min.js'%}"></script>
+        <script type="text/javascript" src="{% static 'assets/revolution/js/extensions/revolution.extension.navigation.min.js'%}"></script>
+        <script type="text/javascript" src="{% static 'assets/revolution/js/extensions/revolution.extension.migration.min.js'%}"></script>
+        <script type="text/javascript" src="{% static 'assets/revolution/js/extensions/revolution.extension.parallax.min.js'%}"></script>
         
     </body>
   
