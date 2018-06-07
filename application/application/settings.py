@@ -15,19 +15,18 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
+from django.core.urlresolvers import reverse_lazy
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '4=^80dk4t3b-@f^s921y80=%nq6)l!=5+5xjy%7#z4jdz-!r99'
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = ['vidaplena.pythonanywhere.com']
 
-
+#AUTH_USER_MODEL = 'activista.Account'
 # Application definition
 
 INSTALLED_APPS = [
@@ -122,3 +121,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
+LOGIN_URL= '/login/'
+LOGIN_REDIRECT_URL = reverse_lazy('app:panel')
+LOGOUT_REDIRECT_URL = reverse_lazy('login')
+
