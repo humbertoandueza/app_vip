@@ -14,7 +14,7 @@ $(function() {
   /*Preloader*/
   $(window).load(function() {
     setTimeout(function() {
-      $('body').addClass('loaded');      
+      $('body').addClass('loader');      
     }, 200);
   });  
 
