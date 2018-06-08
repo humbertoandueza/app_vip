@@ -63,26 +63,6 @@
 
                 <div class="container">
 
-                    <div class="search-wrapper">
-                        <div class="search-trigger pull-right">
-                            <div class='search-btn'></div>
-                            <i class="material-icons">&#xE8B6;</i>
-                        </div>
-
-                        <!-- Modal Search Form -->
-                        <i class="search-close material-icons">&#xE5CD;</i>
-                        <div class="search-form-wrapper">
-                            <form action="#" class="white-form">
-                                <div class="input-field">
-                                    <input type="text" name="search" id="search">
-                                    <label for="search" class="">Search Here...</label>
-                                </div>
-                                <button class="btn pink search-button waves-effect waves-light" type="submit"><i class="material-icons">&#xE8B6;</i></button>
-                                
-                            </form>
-                        </div>
-                    </div><!-- /.search-wrapper -->
-                
                     <div id="materialize-menu" class="menuzord">
 
                         <!--logo start-->
@@ -93,61 +73,10 @@
 
                         <!--mega menu start-->
                         <ul class="menuzord-menu pull-right">
-                            <li class="active"><a href="javascript:void(0)">Home</a>
-                                <div class="megamenu">
-                                    <div class="megamenu-row">
-                                        <div class="col3">
-                                            <h2>Default Demos</h2>
-                                            <ul class="list-unstyled clearfix">
-                                                <li class="active"><a href="index.html">Home Default</a></li>
-                                                <li><a href="index-2.html">Home Canvas</a></li>
-                                                <li><a href="index-3.html">Home Elegent</a></li>
-                                                <li><a href="index-4.html">Home Startup</a></li>
-                                                <li><a href="index-5-consulting.html">Home Consulting</a></li>
-                                                <li><a href="op-index-coffeeshop.html" target="_blank">Home Coffee Shop</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col3">
-                                            <h2>Complete Demos</h2>
-                                            <ul class="list-unstyled clearfix">
-                                                <li><a href="creative-index.html" target="_blank">Creative Demo</a></li>
-                                                <li><a href="corporate-index.html" target="_blank">Corporate Demo</a></li>
-                                                <li><a href="agency-index.html" target="_blank">Agency Demo</a></li>
-                                                <li><a href="construction-index.html" target="_blank">Construction Demo</a></li>
-                                                <li><a href="seo-index.html" target="_blank">SEO Demo</a></li>
-                                                <li><a href="restaurant-index.html" target="_blank">Restaurant Demo</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col3">
-                                            <h2>Onepage Demo</h2>
-                                            <ul class="list-unstyled clearfix">
-                                                <li><a href="op-index-1.html" target="_blank">materialize Onepage</a></li>
-                                                <li><a href="op-index-portfolio.html" target="_blank">Onepage Portfoilo</a></li>
-                                                <li><a href="op-index-event.html" target="_blank">Onepage Event</a></li>
-                                                <li><a href="op-index-book.html" target="_blank">Book Landing Page</a></li>
-                                                <li><a href="op-index-app.html" target="_blank">App Landing Page 1</a></li>
-                                                <li><a href="op-index-app-2.html" target="_blank">App Landing Page 2</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col3">
-                                            <h2>Specialized Home</h2>
-                                            <ul class="list-unstyled clearfix">
-                                                <li><a href="index-8-portfolio.html">Home Portfolio</a></li>
-                                                <li><a href="index-7-blog.html">Home Blog</a></li>
-                                                <li><a href="index-6-charity.html">Home Charity</a></li>
-                                                <li><a href="coming-soon-1.html" target="_blank">Coming Soon One</a></li>
-                                                <li><a href="coming-soon-2.html" target="_blank">Coming Soon Two</a></li>
-                                            </ul>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li><a href="javascript:void(0)">Contact</a>
+                            <li><a href="javascript:void(0)">Panel admin</a>
                                 <ul class="dropdown">
-                                    <li><a href="contact-us.html">Contact One</a></li>
-                                    <li><a href="contact-us-2.html">Contact Two</a></li>
+                                    <li><a href="{% url 'login' %}">Login</a></li>
+                                    <li><a href="#">Acerca de nosotros</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -189,7 +118,7 @@
                     data-splitin="none" 
                     data-splitout="none" 
                     data-responsive_offset="on"
-                    style="z-index: 5; white-space: nowrap;">IGLESIA VIDA PLENA
+                    style="z-index: 5; white-space: nowrap;"><center> IGLESIA <br> VIDA PLENA</center>
                 </div>
 
                 <!-- LAYER NR. 2 -->
@@ -207,7 +136,7 @@
                     data-splitin="none" 
                     data-splitout="none" 
                     data-responsive_offset="on"
-                    style="z-index: 6; white-space: nowrap;">Somos una iglesia con el objectivo de llevar el evangelio a toda criatura<br> predicando la palabra de Dios.
+                    style="z-index: 6; white-space: nowrap;"><center><br>Somos una iglesia con el objectivo de <br> llevar el evangelio a toda criatura<br> predicando la palabra de Dios.</center>
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -878,7 +807,15 @@
             </div><!-- /.secondary-footer -->
         </footer>
 
-
+        <div id="preloader">
+          <div class="preloader-position"> 
+            <img src="{% static 'assets/img/logo.png'%}" alt="logo" width="300" >
+            <div class="progress">
+              <div class="indeterminate"></div>
+            </div>
+          </div>
+        </div>
+        <!-- End Preloader -->
 
 
 
