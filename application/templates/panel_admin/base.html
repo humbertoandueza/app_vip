@@ -28,11 +28,18 @@
     <!-- For Windows Phone -->
 
 
+<<<<<<< HEAD
+    <!-- CORE CSS-->
+    <link href="{% static 'css/materialize.css'%}" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="{% static 'css/style.css'%}" type="text/css" rel="stylesheet" media="screen,projection">
+    <!-- Custome CSS-->
+=======
     <!-- CORE CSS-->    
     <link href="{% static 'css/materialize.css'%}" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="{% static 'css/style.css'%}" type="text/css" rel="stylesheet" media="screen,projection">
     <!-- Custome CSS-->    
     <link href="{% static 'css/custom/custom.css'%}" type="text/css" rel="stylesheet" media="screen,projection">
+>>>>>>> 545311b022574489529666d80b25a44a50806691
 
 
     <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
@@ -44,7 +51,7 @@
 <body>
     <!-- Start Page Loading -->
     <div id="loader-wrapper">
-        <div id="loader"></div>        
+        <div id="loader"></div>
         <div class="loader-section section-left"></div>
         <div class="loader-section section-right"></div>
     </div>
@@ -58,8 +65,13 @@
         <div class="navbar-fixed">
             <nav class="navbar-color">
                 <div class="nav-wrapper">
+<<<<<<< HEAD
                     <ul class="left">                      
                       <li><h1 class="logo-wrapper"><a href="{% url 'app:panel' %}" class="brand-logo darken-1"><img src="{% static 'assets/img/logo.png'%}" alt="materialize logo"></a> <span class="logo-text">Vida Plena</span></h1></li>
+=======
+                    <ul class="left">
+                      <li><h1 class="logo-wrapper"><a href="{% url 'app:panel' %}" class="brand-logo darken-1"><img src="{% static 'assets/img/logo.png'%}" alt="materialize logo"></a> <span class="logo-text">Materialize</span></h1></li>
+>>>>>>> fbdeef9e258fed69bd067b1dab30e22214f6d9d3
                     </ul>
                     <div class="header-search-wrapper hide-on-med-and-down">
                         <i class="mdi-action-search"></i>
@@ -67,13 +79,13 @@
                     </div>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="javascript:void(0);" class="waves-effect waves-block waves-light notification-button" data-activates="notifications-dropdown"><i class="mdi-social-notifications"><small class="notification-badge">5</small></i>
-                        
+
                         </a>
-                        </li>                        
+                        </li>
                         <li><a href="#" data-activates="chat-out" class="waves-effect waves-block waves-light chat-collapse"><i class="mdi-communication-chat"></i></a>
                         </li>
                     </ul>
-                    
+
                     <!-- notifications-dropdown -->
                     <ul id="notifications-dropdown" class="dropdown-content">
                       <li>
@@ -200,23 +212,23 @@
     <!-- ================================================
     Scripts
     ================================================ -->
-    
+
     <!-- jQuery Library -->
-    <script type="text/javascript" src="{% static 'js/plugins/jquery-1.11.2.min.js'%}"></script>    
+    <script type="text/javascript" src="{% static 'js/plugins/jquery-1.11.2.min.js'%}"></script>
     <!--materialize js-->
     <script type="text/javascript" src="{% static 'js/materialize.min.js'%}"></script>
     <!--scrollbar-->
     <script type="text/javascript" src="{% static 'js/plugins/perfect-scrollbar/perfect-scrollbar.min.js'%}"></script>
-    
 
 
-    
+
+
     <!--plugins.js - Some Specific JS codes for Plugin Settings-->
     <script type="text/javascript" src="{% static 'js/plugins.min.js'%}"></script>
     <!--custom-script.js - Add your own theme custom JS-->
     <script type="text/javascript" src="{% static 'js/custom-script.js'%}"></script>
     <!-- Toast Notification -->
-    
+
 </body>
 
 </html>
