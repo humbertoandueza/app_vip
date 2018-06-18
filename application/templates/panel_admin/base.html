@@ -16,7 +16,11 @@
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="description" content="Materialize is a Material Design Admin Template,It's modern, responsive and based on Material Design by Google. ">
     <meta name="keywords" content="materialize, admin template, dashboard template, flat admin template, responsive admin template,">
+<<<<<<< HEAD
     <title>Vida Plena</title>
+=======
+    <title>Iglesia Vida Plena</title>
+>>>>>>> c5821ac65884bf3a827f7d99b84e591138a0af1b
 
     <!-- Favicons-->
     <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
@@ -33,6 +37,16 @@
     <link href="{% static 'css/materialize.css'%}" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="{% static 'css/style.css'%}" type="text/css" rel="stylesheet" media="screen,projection">
     <!-- Custome CSS-->
+<<<<<<< HEAD
+=======
+=======
+    <!-- CORE CSS-->    
+    <link href="{% static 'css/materialize.css'%}" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="{% static 'css/style.css'%}" type="text/css" rel="stylesheet" media="screen,projection">
+    <!-- Custome CSS-->    
+    <link href="{% static 'css/custom/custom.css'%}" type="text/css" rel="stylesheet" media="screen,projection">
+>>>>>>> 545311b022574489529666d80b25a44a50806691
+>>>>>>> c5821ac65884bf3a827f7d99b84e591138a0af1b
 
     <link href="{% static 'css/custom/custom.css'%}" type="text/css" rel="stylesheet" media="screen,projection">
 
@@ -59,8 +73,13 @@
         <div class="navbar-fixed">
             <nav class="navbar-color">
                 <div class="nav-wrapper">
+<<<<<<< HEAD
+                    <ul class="left">                      
+                      <li><h1 class="logo-wrapper"><a href="{% url 'app:panel' %}" class="brand-logo darken-1"><img src="{% static 'assets/img/logo.png'%}" alt="materialize logo"></a> <span class="logo-text">Vida Plena</span></h1></li>
+=======
                     <ul class="left">
                       <li><h1 class="logo-wrapper"><a href="{% url 'app:panel' %}" class="brand-logo darken-1"><img src="{% static 'assets/img/logo.png'%}" alt="materialize logo"></a> <span class="logo-text">Materialize</span></h1></li>
+>>>>>>> fbdeef9e258fed69bd067b1dab30e22214f6d9d3
                     </ul>
                     <div class="header-search-wrapper hide-on-med-and-down">
                         <i class="mdi-action-search"></i>
@@ -121,9 +140,6 @@
                 <ul id="slide-out" class="side-nav fixed leftside-navigation">
                 <li class="user-details cyan darken-2">
                 <div class="row">
-                    <div class="col col s4 m4 l4">
-                        <img src="{% static 'images/avatar.jpg'%}" alt="" class="circle responsive-img valign profile-image">
-                    </div>
                     <div class="col col s8 m8 l8">
                         <ul id="profile-dropdown" class="dropdown-content">
                             <li><a href="#"><i class="mdi-action-face-unlock"></i> Profile</a>
@@ -143,16 +159,16 @@
                     </div>
                 </div>
                 </li>
-                <li class="bold active"><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Dashboard</a>
+                <li class="bold active"><a href="{% url 'app:panel' %}" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i> Inicio</a>
                 </li>
                 <li class="no-padding">
                     <ul class="collapsible collapsible-accordion">
-                        <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="mdi-action-view-carousel"></i> Layouts</a>
+                        <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="mdi-action-view-carousel"></i> Opciones</a>
                             <div class="collapsible-body">
                                 <ul>
-                                    <li><a href="layout-fullscreen.html">Full Screen</a>
+                                    <li class="bold active"><a href="{% url 'app:muestra_1' %}">Muestra 1</a>
                                     </li>
-                                    <li><a href="layout-horizontal-menu.html">Horizontal Menu</a>
+                                    <li><a href="{% url 'app:muestra_2' %}">Muestra 2</a>
                                     </li>
                                 </ul>
                             </div>
@@ -193,7 +209,11 @@
     <footer class="page-footer">
         <div class="footer-copyright">
             <div class="container">
+<<<<<<< HEAD
                 Copyright © 2018 <a class="grey-text text-lighten-4" href="https://vidaplena.pythonanywhere.com" target="_blank">Vida Plena</a> Todos los derechos reservados.
+=======
+               Vida Plena</a> Todos los derechos reservados.
+>>>>>>> c5821ac65884bf3a827f7d99b84e591138a0af1b
                 <span class="right"> Desarrollado por Humberto Andueza y Wilersy Hidalgo</span>
             </div>
         </div>

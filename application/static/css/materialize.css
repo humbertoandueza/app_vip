@@ -910,11 +910,11 @@
 }
 
 .cyan {
-  background-color: #00bcd4 !important;
+  background-color: #00b0f0 !important;
 }
 
 .cyan-text {
-  color: #00bcd4 !important;
+  color: #00b0f0 !important;
 }
 
 .cyan.darken-1 {
@@ -2832,7 +2832,7 @@ ul {
 }
 
 a {
-  color: #00bcd4;
+  color: #00b0f0;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -2907,7 +2907,7 @@ ul li {
 blockquote {
   margin: 20px 0;
   padding-left: 1.5rem;
-  border-left: 5px solid #00bcd4;
+  border-left: 5px solid #00b0f0;
 }
 
 i {
@@ -2964,7 +2964,7 @@ video.responsive-video {
 }
 
 .pagination li.active {
-  background-color: #00bcd4;
+  background-color: #00b0f0;
 }
 
 .pagination li.disabled a {
@@ -3149,7 +3149,7 @@ ul.staggered-list li {
 footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
-  background-color: #00bcd4;
+  background-color: #00b0f0;
 }
 
 footer.page-footer .footer-copyright {
@@ -7593,7 +7593,7 @@ nav ul a span.badge {
 
 nav {
   color: #fff;
-  background-color: #00bcd4;
+  background-color: #00b0f0;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -8054,7 +8054,7 @@ nav .input-field label.active {
 }
 
 .tabs .tab a {
-  color: #00bcd4;
+  color: #00b0f0;
   display: block;
   width: 100%;
   height: 100%;
@@ -8170,7 +8170,7 @@ nav .input-field label.active {
 }
 
 .btn:hover, .btn-large:hover {
-  background-color: #ff5a92;
+  background-color: #38c4f7;
 }
 
 .btn-floating {
@@ -8743,7 +8743,7 @@ select:focus {
 
 button:focus {
   outline: none;
-  background-color: #ff548e;
+  background-color: #85c30a;
 }
 
 label {
@@ -9981,7 +9981,7 @@ select {
 
 .side-nav .collapsible-body li.active,
 .side-nav.fixed .collapsible-body li.active {
-  background-color: #00bcd4;
+  background-color: #00b0f0;
 }
 
 .side-nav .collapsible-body li.active a,
@@ -9990,11 +9990,11 @@ select {
 }
 
 .side-nav.fixed.leftside-navigation .collapsible-body li.active > a {
-  color: #00bcd4;
+  color: #00b0f0;
 }
 
 ul.side-nav.leftside-navigation li.active > a {
-  color: #00bcd4;
+  color: #00b0f0;
 }
 
 #sidenav-overlay {

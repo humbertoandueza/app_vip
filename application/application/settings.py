@@ -24,7 +24,12 @@ SECRET_KEY = '4=^80dk4t3b-@f^s921y80=%nq6)l!=5+5xjy%7#z4jdz-!r99'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['vidaplena.pythonanywhere.com']
+ALLOWED_HOSTS = []
+<<<<<<< HEAD
+=======
+#ALLOWED_HOSTS = ['vidaplena.pythonanywhere.com']
+>>>>>>> adba2a65ab92bb5526000791bd9ac51e969de7d2
+
 
 #AUTH_USER_MODEL = 'activista.Account'
 # Application definition
