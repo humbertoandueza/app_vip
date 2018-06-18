@@ -121,11 +121,10 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
-<<<<<<< HEAD
+
 SECURE_SSL_REDIRECT = True
-=======
+
 LOGIN_URL= '/login/'
 LOGIN_REDIRECT_URL = reverse_lazy('app:panel')
 LOGOUT_REDIRECT_URL = reverse_lazy('login')
 
->>>>>>> 545311b022574489529666d80b25a44a50806691

@@ -16,7 +16,7 @@
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="description" content="Materialize is a Material Design Admin Template,It's modern, responsive and based on Material Design by Google. ">
     <meta name="keywords" content="materialize, admin template, dashboard template, flat admin template, responsive admin template,">
-    <title>Materialize - Material Design Admin Template</title>
+    <title>Vida Plena</title>
 
     <!-- Favicons-->
     <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
@@ -28,19 +28,13 @@
     <!-- For Windows Phone -->
 
 
-<<<<<<< HEAD
+
     <!-- CORE CSS-->
     <link href="{% static 'css/materialize.css'%}" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="{% static 'css/style.css'%}" type="text/css" rel="stylesheet" media="screen,projection">
     <!-- Custome CSS-->
-=======
-    <!-- CORE CSS-->    
-    <link href="{% static 'css/materialize.min.css'%}" type="text/css" rel="stylesheet" media="screen,projection">
-    <link href="{% static 'css/style.css'%}" type="text/css" rel="stylesheet" media="screen,projection">
-    <!-- Custome CSS-->    
-    <link href="{% static 'css/custom/custom.css'%}" type="text/css" rel="stylesheet" media="screen,projection">
->>>>>>> 545311b022574489529666d80b25a44a50806691
 
+    <link href="{% static 'css/custom/custom.css'%}" type="text/css" rel="stylesheet" media="screen,projection">
 
     <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
     <link href="{% static 'js/plugins/perfect-scrollbar/perfect-scrollbar.css'%}" type="text/css" rel="stylesheet" media="screen,projection">
@@ -144,7 +138,7 @@
                             <li><a href="{% url 'logout' %}"><i class="mdi-hardware-keyboard-tab"></i> Logout</a>
                             </li>
                         </ul>
-                        <a class="btn-flat dropdown-button waves-effect waves-light white-text profile-btn" href="#" data-activates="profile-dropdown">John Doe<i class="mdi-navigation-arrow-drop-down right"></i></a>
+                        <a class="btn-flat dropdown-button waves-effect waves-light white-text profile-btn" href="#" data-activates="profile-dropdown">{{user.username}}<i class="mdi-navigation-arrow-drop-down right"></i></a>
                         <p class="user-roal">Administrator</p>
                     </div>
                 </div>
@@ -199,8 +193,8 @@
     <footer class="page-footer">
         <div class="footer-copyright">
             <div class="container">
-                Copyright © 2018 <a class="grey-text text-lighten-4" href="http://themeforest.net/user/geekslabs/portfolio?ref=geekslabs" target="_blank">GeeksLabs</a> All rights reserved.
-                <span class="right"> Design and Developed by <a class="grey-text text-lighten-4" href="http://geekslabs.com/">GeeksLabs</a></span>
+                Copyright © 2018 <a class="grey-text text-lighten-4" href="https://vidaplena.pythonanywhere.com" target="_blank">Vida Plena</a> Todos los derechos reservados.
+                <span class="right"> Desarrollado por Humberto Andueza y Wilersy Hidalgo</span>
             </div>
         </div>
     </footer>
