@@ -25,10 +25,8 @@ SECRET_KEY = '4=^80dk4t3b-@f^s921y80=%nq6)l!=5+5xjy%7#z4jdz-!r99'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-<<<<<<< HEAD
-=======
 #ALLOWED_HOSTS = ['vidaplena.pythonanywhere.com']
->>>>>>> adba2a65ab92bb5526000791bd9ac51e969de7d2
+
 
 
 #AUTH_USER_MODEL = 'activista.Account'
@@ -127,11 +125,6 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
 
-<<<<<<< HEAD
-=======
-SECURE_SSL_REDIRECT = True
-
->>>>>>> e81f898ee3e16bd91b20e9e5c352d9a09f7b70b4
 LOGIN_URL= '/login/'
 LOGIN_REDIRECT_URL = reverse_lazy('app:panel')
 LOGOUT_REDIRECT_URL = reverse_lazy('login')
