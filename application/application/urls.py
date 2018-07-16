@@ -4,6 +4,7 @@ from django.contrib.auth import views as auth_views
 
 
 urlpatterns = [
+	  # Django JET URLS
 	url(r'^login/$', auth_views.login ,{'redirect_authenticated_user': True}, name='login'),
     url(r'^logout/$', auth_views.logout, name='logout'),
     url(r'^admin/', admin.site.urls),

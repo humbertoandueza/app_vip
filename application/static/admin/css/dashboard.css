@@ -1,1 +1,31 @@
+<<<<<<< HEAD
 /* Overridden by Django Suit empty stylesheet to reset original style. */
+=======
+/* DASHBOARD */
+
+.dashboard .module table th {
+    width: 100%;
+}
+
+.dashboard .module table td {
+    white-space: nowrap;
+}
+
+.dashboard .module table td a {
+    display: block;
+    padding-right: .6em;
+}
+
+/* RECENT ACTIONS MODULE */
+
+.module ul.actionlist {
+    margin-left: 0;
+}
+
+ul.actionlist li {
+    list-style-type: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+>>>>>>> 5d6e59562e856ac96750d6e33fed3296ef0f0530
